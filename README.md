@@ -1,16 +1,36 @@
-# React + Vite
+# Mini Food Ordering Hub
+ 
+A React-based food ordering web app built with Vite — browse a menu, add items to cart, and see live totals update in real time.
+ 
+## Features
+- Dynamic menu grid rendered from a data array (no hardcoded cards)
+- Add to cart / remove from cart with live quantity controls
+- Real-time cart total + item count badge
+- Search/filter food items by name
+- Responsive hover/click micro-interactions
+## Built With
+- React + Vite
+- Plain CSS (no framework)
+## Getting Started
+ 
+```
+git clone  https://github.com/khushiiii87-i/food-orderinghub.git
+cd food-ordering-hub
+npm install
+npm run dev
+```
+ 
+Then open the local URL shown in your terminal (usually `http://localhost:5173`).
+ 
+## Project Structure
+- `src/components/` — FoodCard, MenuGrid, CartSidebar
+- `src/App.jsx` — owns cart state and menu data
+- `public/images/` — food images
+ 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
