@@ -1,0 +1,136 @@
+body {
+  
+  background-color: #fcfafa;
+  
+
+}
+
+.title{
+  font-size: 15px;
+  font-family:  sans-serif;
+  color:#02021e;
+  
+}
+
+.Appname{
+  position:fixed;
+left:2%;
+top:0%;
+
+
+
+}
+.cart{
+  position:fixed;
+  right:0px;
+  top:10px;
+ 
+
+}
+
+
+.price{
+  font-size:13px;
+  color:brown;
+  
+}
+.carticon{
+  position:fixed;
+  right:18%;
+  bottom:0%;
+ 
+}
+  
+.add-btn{
+  height:20px;
+  width:100px;
+  padding:2px;
+  border-radius: 10px;   /* normal rounded corners */
+
+}
+
+.add-btn {
+  transition: transform 0.15s ease;
+}
+
+.add-btn:active {
+  transform: scale(0.95);
+}
+
+.FoodCard{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  height: 230px;
+  width:150px;
+ border-radius: 5px;
+ border-color: rgba(21, 2, 2, 0.719); 
+ border-style: dashed; 
+ border-width: 2px;
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+ 
+
+}
+.FoodCard:hover{
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+}
+
+.searchbox{
+  position:fixed;
+  top:2%;
+  left:40%;
+  border-radius:5px;
+}
+
+.menu-grid {
+  
+  height: 500px;        /* 1000px window - 200px header = 800px remaining */
+  overflow-y: scroll;
+  position:relative;
+  margin-top: 150px;
+  margin-right:300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3,20px);
+  row-gap:300px;
+  column-gap:100px;
+ 
+}
+
+.cart_table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.cart_table th {
+  text-align: left;
+  font-size: 13px;
+  color: #555;
+  padding: 8px 6px;
+  border-bottom: 2px solid #333;
+}
+
+.cart_table td {
+  padding: 8px 6px;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.cart_table tfoot td {
+  border-bottom: none;
+  border-top: 2px solid #333;
+  padding-top: 12px;
+}
+
+.logo{
+position:fixed;
+width:400px;
+height:400px;
+left:4%;
+top:-12%;
+
+}
